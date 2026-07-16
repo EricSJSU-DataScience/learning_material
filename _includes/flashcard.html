@@ -1,0 +1,171 @@
+<style>
+.fc-wrap {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.fc-counter {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+.fc-scene {
+  width: 100%;
+  height: 220px;
+  perspective: 1000px;
+  cursor: pointer;
+  margin-bottom: 1.25rem;
+}
+.fc-card {
+  width: 100%; height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+.fc-card.flipped { transform: rotateY(180deg); }
+.fc-front, .fc-back {
+  position: absolute;
+  width: 100%; height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+.fc-front {
+  background: #fff;
+  border: 2px solid #5050d0;
+  color: #1a1a1a;
+}
+.fc-back {
+  background: #5050d0;
+  border: 2px solid #5050d0;
+  color: #fff;
+  transform: rotateY(180deg);
+}
+.fc-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.5;
+  margin-bottom: 0.75rem;
+}
+.fc-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.fc-hint {
+  font-size: 0.8rem;
+  opacity: 0.45;
+  margin-top: 0.75rem;
+}
+.fc-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.fc-btn {
+  padding: 0.45rem 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  color: #333;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.fc-btn:hover { background: #f0f0f0; }
+.fc-btn:disabled { opacity: 0.35; cursor: default; }
+.fc-shuffle {
+  padding: 0.45rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  background: #5050d0;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.fc-shuffle:hover { background: #3838b0; }
+</style>
+
+<script>
+function renderCards(containerId, cards) {
+  let deck = [...cards];
+  let current = 0;
+
+  const wrap = document.getElementById(containerId);
+  wrap.className = 'fc-wrap';
+
+  const counter = document.createElement('div');
+  counter.className = 'fc-counter';
+
+  const scene = document.createElement('div');
+  scene.className = 'fc-scene';
+
+  const card = document.createElement('div');
+  card.className = 'fc-card';
+
+  const front = document.createElement('div');
+  front.className = 'fc-front';
+
+  const back = document.createElement('div');
+  back.className = 'fc-back';
+
+  card.appendChild(front);
+  card.appendChild(back);
+  scene.appendChild(card);
+
+  const controls = document.createElement('div');
+  controls.className = 'fc-controls';
+
+  const prevBtn = document.createElement('button');
+  prevBtn.className = 'fc-btn';
+  prevBtn.textContent = '← Prev';
+
+  const nextBtn = document.createElement('button');
+  nextBtn.className = 'fc-btn';
+  nextBtn.textContent = 'Next →';
+
+  const shuffleBtn = document.createElement('button');
+  shuffleBtn.className = 'fc-shuffle';
+  shuffleBtn.textContent = 'Shuffle';
+
+  controls.appendChild(prevBtn);
+  controls.appendChild(shuffleBtn);
+  controls.appendChild(nextBtn);
+
+  wrap.appendChild(counter);
+  wrap.appendChild(scene);
+  wrap.appendChild(controls);
+
+  function render() {
+    const c = deck[current];
+    card.classList.remove('flipped');
+    front.innerHTML = `<div class="fc-label">Question</div><div class="fc-text">${c.front}</div><div class="fc-hint">click to reveal</div>`;
+    back.innerHTML = `<div class="fc-label">Answer</div><div class="fc-text">${c.back}</div>`;
+    counter.textContent = `${current + 1} / ${deck.length}`;
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === deck.length - 1;
+  }
+
+  scene.addEventListener('click', () => card.classList.toggle('flipped'));
+
+  prevBtn.addEventListener('click', () => { if (current > 0) { current--; render(); } });
+  nextBtn.addEventListener('click', () => { if (current < deck.length - 1) { current++; render(); } });
+  shuffleBtn.addEventListener('click', () => {
+    deck = deck.sort(() => Math.random() - 0.5);
+    current = 0;
+    render();
+  });
+
+  render();
+}
+</script>

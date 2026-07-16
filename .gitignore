@@ -4,3 +4,4 @@ _site
 .jekyll-metadata
 vendor
 Jekyll_website_project.md
+templates/
