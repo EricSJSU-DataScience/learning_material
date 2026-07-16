@@ -20,3 +20,4 @@ Daily commands for navigating and managing files.
 - [rm](rm.md) — remove
 - [cat](cat.md) — display file contents
 - [find](find.md) — search for files
+- [watch](watch.md) — run a command repeatedly
