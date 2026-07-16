@@ -1,0 +1,957 @@
+<body class="with-left-side course-menu-expanded padless-content pages primary-nav-expanded context-course_1925819 responsive_student_grades_page show webkit chrome no-touch" data-new-gr-c-s-check-loaded="14.1311.0" data-gr-ext-installed="">
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+<div id="flash_message_holder"></div>
+<div id="flash_screenreader_holder" role="alert" aria-live="assertive" aria-relevant="additions" class="screenreader-only" aria-atomic="true"></div>
+
+<div id="application" class="ic-app ">
+  
+
+
+
+
+<header id="mobile-header" class="no-print" style="position: relative;">
+  <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-hamburger">
+    <i class="icon-solid icon-hamburger"></i>
+    <span id="mobileHeaderInboxUnreadBadge" class="menu-item__badge" style="min-width: 0; top: 12px; height: 12px; right: 6px; display:none;"></span>
+    <span class="screenreader-only">Global Navigation Menu</span>
+  </button>
+  <div class="mobile-header-space"></div>
+    <a class="mobile-header-title expandable" href="/courses/1925819" role="button" aria-controls="mobileContextNavContainer">
+      <div>MSE-DS Onboarding Course - Fall 2026</div>
+        <div>Penn’s History and the Computer and Information Science Department (CIS)</div>
+    </a><atomic-search-mobile-widget id="ajas-search-widget-mobile" data-placeholder="Search this course"><template shadowrootmode="open"><style>.ajas-search-widget {
+  --svg-fill: #01579b;
+  --close-fill: #fff;
+  max-width: 200px;
+  width: 100%;
+  position: relative;
+}
+
+.ajas-search-widget--dashboard {
+  margin-right: 10px;
+}
+
+.ajas-search-widget--all-courses {
+  position: absolute;
+  top: 32px;
+  right: 24px;
+  margin: 0;
+}
+
+.ajas-search-widget,
+.ajas-search-widget * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.ajas-search-widget__form {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+.ajas-search-widget__form p {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: -16px;
+  text-align: right;
+  font-size: 10px;
+  color: #777;
+  margin-block: 4px 0;
+}
+.ajas-search-widget__form p span {
+  color: var(--svg-fill);
+}
+.ajas-search-widget__form input {
+  height: 36px;
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #202122;
+  width: 100%;
+  padding-inline: 12px 42px;
+  border: 1px solid #8d959f;
+  border-radius: 4px;
+  background-color: white;
+}
+.ajas-search-widget__form input:focus {
+  border-color: #006fbf;
+  outline: 1px solid #006fbf;
+}
+
+.ajas-search-widget-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.ajas-search-widget__dropdown {
+  position: absolute;
+  right: 0;
+  top: 32px;
+  border: 1px solid var(---e5e7eb);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border: 1px solid #e5e7eb;
+  border-radius: 3px;
+  color: #384151;
+  z-index: 191;
+}
+
+.ajas-search-widget__overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+.ajas-search-widget__dropdown.hidden,
+.ajas-search-widget__overlay.hidden {
+  display: none;
+}
+
+.ajas-search-widget__dropdown button {
+  padding: 9px 12px;
+  letter-spacing: 0px;
+  font-size: 14px;
+  white-space: nowrap;
+  border: none;
+  background-color: white;
+  color: #202122;
+}
+
+.ajas-search-widget__dropdown button:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+@media (max-width: 767px) {
+  .ajas-search-widget {
+    display: none;
+  }
+  .ajas-search-widget.ajas-search-widget--small {
+    display: block;
+  }
+}
+.ajas-search-toggle {
+  width: 45px;
+  height: 55px;
+  background: none;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  display: grid;
+  place-items: center;
+  transition: all 0.1s ease;
+}
+.ajas-search-toggle .ajas-search-logo {
+  height: 24px;
+  width: 24px;
+}
+.ajas-search-toggle .ajas-search-logo .logo-path {
+  transition: all 100ms ease;
+  fill: var(--close-fill);
+}
+.ajas-search-toggle .ajas-search-logo .logo-rect {
+  fill: none;
+}
+.ajas-search-toggle .ajas-close-svg {
+  height: 24px;
+  width: 24px;
+  fill: var(--close-fill);
+  transition: all 100ms ease;
+}
+.ajas-search-toggle:focus {
+  outline: 2px solid #fff;
+  outline-offset: -3px;
+}
+
+.ajas-search-widget--small {
+  position: initial;
+  width: auto;
+  transition: all 0.3s ease;
+  margin: 0;
+}
+.ajas-search-widget--small .ajas-close-svg {
+  display: none;
+}
+.ajas-search-widget--small .ajas-search-widget__btn-group {
+  right: 14px;
+  top: 14px;
+}
+.ajas-search-widget--small .ajas-search-widget__btn--search {
+  width: 34px;
+  height: 34px;
+}
+.ajas-search-widget--small .ajas-search-widget__btn--search svg {
+  height: 28px;
+  width: 28px;
+}
+.ajas-search-widget--small .ajas-search-widget__overlay {
+  top: -55px;
+  left: 0;
+}
+.ajas-search-widget--small .ajas-search-widget__btn--caret {
+  height: 34px;
+}
+.ajas-search-widget--small .ajas-search-widget__dropdown {
+  top: 43px;
+}
+.ajas-search-widget--small form {
+  padding: 10px;
+  width: 100%;
+  min-height: 65px;
+  background-color: white;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0;
+  top: 55px;
+  appearance: none;
+  opacity: 0;
+  transform-origin: center top;
+  transform: rotateX(90deg);
+  transition: transform 0.2s ease, opacity 0.2s ease, appearance 0s linear 0.2s;
+  z-index: 99;
+}
+.ajas-search-widget--small form p {
+  position: initial;
+}
+.ajas-search-widget--small input {
+  height: 42px;
+  font-size: 16px;
+  width: 100%;
+  margin: 0;
+  line-height: normal;
+  color: #222 !important;
+}
+.ajas-search-widget--small.is-active .ajas-search-toggle .ajas-search-logo {
+  display: none;
+}
+.ajas-search-widget--small.is-active .ajas-search-toggle .ajas-close-svg {
+  display: block;
+}
+.ajas-search-widget--small.is-active form {
+  appearance: initial;
+  transform: rotateX(0);
+  transition: transform 0.2s ease, opacity 0.2s ease, appearance 0s linear 0s;
+  opacity: 1;
+}
+
+.ajas-search-widget--equella input {
+  padding-right: 60px;
+}
+.ajas-search-widget--equella.ajas-search-widget--small input {
+  padding-right: 66px;
+}
+
+.ajas-search-widget__btn-group {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  right: 4px;
+  top: 4px;
+  border-radius: 3px;
+}
+
+.ajas-search-widget__btn--search {
+  display: grid;
+  place-items: center;
+  height: 28px;
+  width: 28px;
+  border-radius: 3px;
+  background: none;
+  border: none;
+  padding: 0;
+  transition: all 100ms ease;
+}
+.ajas-search-widget__btn--search .ajas-search-logo {
+  height: 24px;
+  width: 24px;
+}
+.ajas-search-widget__btn--search .ajas-search-logo .logo-path {
+  transition: all 100ms ease;
+  fill: var(--svg-fill);
+}
+.ajas-search-widget__btn--search .ajas-search-logo .logo-rect {
+  fill: none;
+}
+.ajas-search-widget__btn--search:hover {
+  --svg-fill: #fff;
+  cursor: pointer;
+  background-color: #006fbf;
+}
+.ajas-search-widget__btn--search:focus {
+  outline: none;
+}
+.ajas-search-widget__btn--search:focus-visible {
+  --svg-fill: #fff;
+  outline: 2px solid #006fbf;
+  outline-offset: 2px;
+  background-color: #006fbf;
+}
+
+.ajas-search-widget__btn--caret {
+  width: 24px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.ajas-search-widget__btn--caret svg {
+  fill: var(--svg-fill);
+}
+.ajas-search-widget__btn--caret:hover {
+  --svg-fill: #fff;
+  cursor: pointer;
+  background-color: #006fbf;
+}
+.ajas-search-widget__btn--caret:focus {
+  outline: none;
+}
+.ajas-search-widget__btn--caret:focus-visible {
+  --svg-fill: #fff;
+  outline: 2px solid #006fbf;
+  outline-offset: 2px;
+  background-color: #006fbf;
+}</style><div class="ajas-search-widget ajas-search-widget--small ">
+    <button class="ajas-search-toggle" type="button" aria-label="toggle search">
+      <svg class="ajas-search-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.8 64.6">
+  <g>
+    <path class="logo-path" d="M52.5,55.9a5.9,5.9,0,0,1-2.3.4H14.6a8,8,0,0,1-8-8v-32a8,8,0,0,1,8-8H50.2a8,8,0,0,1,8,8v32A8.2,8.2,0,0,1,56.7,53L43.5,39.8a13.6,13.6,0,0,0,2.3-7.5A13.4,13.4,0,1,0,32.4,45.7a12.9,12.9,0,0,0,7.5-2.4Zm-20.1-32a8.4,8.4,0,1,0,8.4,8.4A8.5,8.5,0,0,0,32.4,23.9Z"></path>
+    <rect class="logo-rect" width="64.7" height="64.7"></rect>
+  </g>
+</svg>
+      <svg class="ajas-close-svg" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <path d="M38 12.83L35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z"></path>
+    <path d="M0 0h48v48H0z" fill="none"></path>
+  </svg>
+    </button>
+    <form class="ajas-search-widget__form" action="javascript:void(0);" method="get" role="search">
+      <label for="ajas-search02" class="ajas-search-widget-hidden">Search</label>
+      <input type="text" placeholder="Search this course" id="ajas-search02" aria-describedby="powered-by">
+      <p id="powered-by">Powered by <span>Atomic Search</span></p>
+      <div class="ajas-search-widget__btn-group">
+        <button type="submit" aria-label="submit search" class="ajas-search-widget__btn--search">
+          <svg class="ajas-search-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.8 64.6">
+  <g>
+    <path class="logo-path" d="M52.5,55.9a5.9,5.9,0,0,1-2.3.4H14.6a8,8,0,0,1-8-8v-32a8,8,0,0,1,8-8H50.2a8,8,0,0,1,8,8v32A8.2,8.2,0,0,1,56.7,53L43.5,39.8a13.6,13.6,0,0,0,2.3-7.5A13.4,13.4,0,1,0,32.4,45.7a12.9,12.9,0,0,0,7.5-2.4Zm-20.1-32a8.4,8.4,0,1,0,8.4,8.4A8.5,8.5,0,0,0,32.4,23.9Z"></path>
+    <rect class="logo-rect" width="64.7" height="64.7"></rect>
+  </g>
+</svg>
+        </button>
+        
+      </div>
+    </form>
+  </div></template></atomic-search-mobile-widget>
+
+  <div id="nutrition_facts_mobile_container"></div>
+
+    <div id="immersive_reader_mobile_mount_point"><div><button dir="ltr" data-cid="BaseButton IconButton" cursor="pointer" type="button" class="css-1sec0gm-view--inlineBlock-baseButton"><span class="css-t3k3bl-baseButton__content"><span class="css-qi8ml9-baseButton__childrenLayout"><span class="css-5udsuu-baseButton__iconOnly"><span class="css-quqv7u-baseButton__iconSVG"><svg viewBox="0 0 40 37" rotate="0" data-cid="InlineSVG SVGIcon" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1uh2md0-inlineSVG-svgIcon" style="width: 1em; height: 1em;"><g role="presentation">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <path d="M37.4,0.9 L37.4,9.6 L35.4,9.6 L35.4,2.9 L24.4,2.9 C22.9,3.3 20,4.5 20,6 L20,17.2 L18,17.2 L18,6 C18,5 15.6,3.6 13.8,2.9 L2,2.9 L2,29 L12.4,29 L12.4,31 L0,31 L0,0.9 L14.1,0.9 L14.3,1 C15,1.2 17.5,2.2 18.9,3.7 C20.5,1.9 23.5,1.1 23.9,1 L24.1,1 L37.4,1 L37.4,0.9 Z" fill="#000000"></path>
+            <path d="M27.4,37 L25.8,37 L18.4,29.4 L14,29.4 L14,21 L18.4,20.9 L26.1,13 L27.4,13 L27.4,37 Z M16,27.4 L19.2,27.4 L25.3,33.7 L25.3,16.6 L19.2,22.9 L15.9,22.9 L15.9,27.4 L16,27.4 Z" fill="#0197F2"></path>
+            <path d="M31.3,32.7 L29.6,31.7 C29.6,31.7 31.7,28.3 31.7,25.2 C31.7,21.9 29.6,18.5 29.6,18.4 L31.3,17.4 C31.4,17.6 33.7,21.3 33.7,25.2 C33.7,28.8 31.4,32.6 31.3,32.7 Z" fill="#0197F2"></path>
+            <path d="M36.4,36.2 L34.8,35 C34.8,35 38,30.8 38,25.2 C38,19.6 34.8,15.4 34.8,15.4 L36.4,14.2 C36.5,14.4 40,19 40,25.3 C40,31.5 36.5,36 36.4,36.2 Z" fill="#0197F2"></path>
+        </g>
+    </g>
+</g></svg></span><span class="css-r9cwls-screenReaderContent">Immersive Reader</span></span></span></span></button></div></div>
+
+    <div class="mobile-header-space"></div>
+    <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-arrow" aria-label="Navigation Menu">
+      <i class="icon-arrow-open-down" id="mobileHeaderArrowIcon"></i>
+    </button>
+</header>
+<nav id="mobileContextNavContainer" aria-expanded="false"><div></div></nav>
+
+<header id="header" class="ic-app-header no-print " aria-label="Global Header">
+  <a href="#content" id="skip_navigation_link">Skip To Content</a>
+  <div role="region" class="ic-app-header__main-navigation" aria-label="Global Navigation">
+      <div class="ic-app-header__logomark-container">
+        <a href="https://canvas.upenn.edu/" class="ic-app-header__logomark">
+          <span class="screenreader-only">Dashboard</span>
+        </a>
+      </div>
+    <ul id="menu" class="ic-app-header__menu-list">
+        <li class="menu-item ic-app-header__menu-list-item ">
+          <a id="global_nav_profile_link" role="button" href="/profile/settings" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container">
+              <div aria-hidden="true" class="fs-exclude ic-avatar ">
+                <img src="https://canvas.upenn.edu/images/messages/avatar-50.png" alt="Eric Zhao">
+              </div>
+              <span class="menu-item__badge"></span>
+            </div>
+            <div class="menu-item__text">
+              Account
+            </div>
+          </a>
+        </li>
+      <li class="ic-app-header__menu-list-item ">
+        <a id="global_nav_dashboard_link" href="https://canvas.upenn.edu/" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--dashboard" version="1.1" x="0" y="0" viewBox="0 0 280 200" enable-background="new 0 0 280 200" xml:space="preserve"><path d="M273.09,180.75H197.47V164.47h62.62A122.16,122.16,0,1,0,17.85,142a124,124,0,0,0,2,22.51H90.18v16.29H6.89l-1.5-6.22A138.51,138.51,0,0,1,1.57,142C1.57,65.64,63.67,3.53,140,3.53S278.43,65.64,278.43,142a137.67,137.67,0,0,1-3.84,32.57ZM66.49,87.63,50.24,71.38,61.75,59.86,78,76.12Zm147,0L202,76.12l16.25-16.25,11.51,11.51ZM131.85,53.82v-23h16.29v23Zm15.63,142.3a31.71,31.71,0,0,1-28-16.81c-6.4-12.08-15.73-72.29-17.54-84.25a8.15,8.15,0,0,1,13.58-7.2c8.88,8.21,53.48,49.72,59.88,61.81a31.61,31.61,0,0,1-27.9,46.45ZM121.81,116.2c4.17,24.56,9.23,50.21,12,55.49A15.35,15.35,0,1,0,161,157.3C158.18,152,139.79,133.44,121.81,116.2Z"></path></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Dashboard
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active" aria-current="page">
+          <a id="global_nav_courses_link" role="button" href="/courses" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--courses" version="1.1" x="0" y="0" viewBox="0 0 280 259" enable-background="new 0 0 280 259" xml:space="preserve"><path d="M73.31,198c-11.93,0-22.22,8-24,18.73a26.67,26.67,0,0,0-.3,3.63v.3a22,22,0,0,0,5.44,14.65,22.47,22.47,0,0,0,17.22,8H200V228.19h-134V213.08H200V198Zm21-105.74h90.64V62H94.3ZM79.19,107.34V46.92H200v60.42Zm7.55,30.21V122.45H192.49v15.11ZM71.65,16.71A22.72,22.72,0,0,0,49,39.36V190.88a41.12,41.12,0,0,1,24.32-8h157V16.71ZM33.88,39.36A37.78,37.78,0,0,1,71.65,1.6H245.36V198H215.15v45.32h22.66V258.4H71.65a37.85,37.85,0,0,1-37.76-37.76Z"></path></svg>
+
+            </div>
+            <div class="menu-item__text">
+              Courses
+            </div>
+          </a>
+        </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+        <a id="global_nav_calendar_link" href="/calendar" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--calendar" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M197.07,213.38h16.31V197.07H197.07Zm-16.31,16.31V180.76h48.92v48.92Zm-48.92-16.31h16.31V197.07H131.85Zm-16.31,16.31V180.76h48.92v48.92ZM66.62,213.38H82.93V197.07H66.62ZM50.32,229.68V180.76H99.24v48.92Zm146.75-81.53h16.31V131.85H197.07Zm-16.31,16.31V115.54h48.92v48.92Zm-48.92-16.31h16.31V131.85H131.85Zm-16.31,16.31V115.54h48.92v48.92ZM66.62,148.15H82.93V131.85H66.62ZM50.32,164.46V115.54H99.24v48.92ZM34,262.29H246V82.93H34ZM246,66.62V42.16A8.17,8.17,0,0,0,237.84,34H213.38v8.15a8.15,8.15,0,1,1-16.31,0V34H82.93v8.15a8.15,8.15,0,0,1-16.31,0V34H42.16A8.17,8.17,0,0,0,34,42.16V66.62Zm-8.15-48.92a24.49,24.49,0,0,1,24.46,24.46V278.6H17.71V42.16A24.49,24.49,0,0,1,42.16,17.71H66.62V9.55a8.15,8.15,0,0,1,16.31,0v8.15H197.07V9.55a8.15,8.15,0,1,1,16.31,0v8.15Z"></path></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Calendar
+          </div>
+        </a>
+      </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+      <!-- TODO: Add back global search when available -->
+        <a id="global_nav_conversations_link" href="/conversations" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container">
+            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--inbox" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M91.72,120.75h96.56V104.65H91.72Zm0,48.28h80.47V152.94H91.72Zm0-96.56h80.47V56.37H91.72Zm160.94,34.88H228.52V10.78h-177v96.56H27.34A24.17,24.17,0,0,0,3.2,131.48V244.14a24.17,24.17,0,0,0,24.14,24.14H252.66a24.17,24.17,0,0,0,24.14-24.14V131.48A24.17,24.17,0,0,0,252.66,107.34Zm0,16.09a8.06,8.06,0,0,1,8,8v51.77l-32.19,19.31V123.44ZM67.58,203.91v-177H212.42v177ZM27.34,123.44H51.48v79.13L19.29,183.26V131.48A8.06,8.06,0,0,1,27.34,123.44ZM252.66,252.19H27.34a8.06,8.06,0,0,1-8-8V202l30,18H230.75l30-18v42.12A8.06,8.06,0,0,1,252.66,252.19Z"></path></svg>
+</span>
+            <span class="menu-item__badge"></span>
+          </div>
+          <div class="menu-item__text">
+            Inbox
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item">
+          <a id="global_nav_history_link" role="button" href="#" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg viewBox="0 0 1920 1920" class="ic-icon-svg menu-item__icon svg-icon-history" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M960 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.125 379.934 847.059 847.059 847.059 467.125 0 847.059-379.934 847.059-847.059 0-467.125-379.934-847.059-847.059-847.059M960 1920C430.645 1920 0 1489.355 0 960S430.645 0 960 0s960 430.645 960 960-430.645 960-960 960m417.905-575.955L903.552 988.28V395.34h112.941v536.47l429.177 321.77-67.765 90.465z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
+</svg>
+            </div>
+            <div class="menu-item__text">
+              History
+            </div>
+          </a>
+        </li>
+        
+
+      <li class="ic-app-header__menu-list-item">
+        <a id="global_nav_help_link" role="button" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="#">
+          <div class="menu-item-icon-container" role="presentation">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-help" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A11.15,11.15,0,1,0,111.16,139,11.16,11.16,0,0,0,100,127.88Zm8.82-88.08a33.19,33.19,0,0,1,23.5,23.5,33.54,33.54,0,0,1-24,41.23,3.4,3.4,0,0,0-2.74,3.15v9.06H94.42v-9.06a14.57,14.57,0,0,1,11.13-14,22.43,22.43,0,0,0,13.66-10.27,22.73,22.73,0,0,0,2.31-17.37A21.92,21.92,0,0,0,106,50.59a22.67,22.67,0,0,0-19.68,3.88,22.18,22.18,0,0,0-8.65,17.64H66.54a33.25,33.25,0,0,1,13-26.47A33.72,33.72,0,0,1,108.82,39.8ZM100,5.2A94.8,94.8,0,1,0,194.8,100,94.91,94.91,0,0,0,100,5.2m0,178.45A83.65,83.65,0,1,1,183.65,100,83.73,83.73,0,0,1,100,183.65" transform="translate(-5.2 -5.2)"></path></svg>
+
+            <span class="menu-item__badge"><span dir="ltr"><span class="css-r9cwls-screenReaderContent">10 unread release notes.</span><span aria-hidden="true">10</span></span></span>
+          </div>
+          <div class="menu-item__text">
+            Help
+          </div>
+</a>      </li>
+    </ul>
+  </div>
+  <div class="ic-app-header__secondary-navigation">
+    <ul class="ic-app-header__menu-list">
+      <li class="menu-item ic-app-header__menu-list-item">
+        <a id="primaryNavToggle" role="button" href="#" class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle" aria-label="Minimize global navigation" title="Minimize global navigation">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"></path>
+</svg>
+
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="global_nav_tray_container"></div>
+  <div id="global_nav_tour"></div>
+</header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="about:blank" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+        <div class="ic-app-nav-toggle-and-crumbs no-print">
+            <button type="button" id="courseMenuToggle" class="Button Button--link ic-app-course-nav-toggle" aria-live="polite" aria-label="Hide Courses Navigation Menu">
+              <i class="icon-hamburger" aria-hidden="true"></i>
+            </button>
+
+          <div class="ic-app-crumbs ">
+              <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs"><ol><li class="home"><a href="/"><span class="ellipsible ellipsis" style=""><i class="icon-home" title="My Dashboard"><span class="screenreader-only">My Dashboard</span></i></span></a></li><li><a href="/courses/1925819"><span class="ellipsible">MSE-DS Onboarding Course - Fall 2026</span></a></li><li><a href="/courses/1925819/pages"><span class="ellipsible">Pages</span></a></li><li aria-current="page"><span class="ellipsible">Penn’s History and the Computer and Information Science Department (CIS)</span></li></ol></nav>
+          </div>
+
+
+          <div id="nutrition_facts_container"></div>
+          <div class="right-of-crumbs right-of-crumbs-no-reverse">
+              <div id="immersive_reader_mount_point"><div><button dir="ltr" data-cid="BaseButton IconButton" cursor="pointer" type="button" class="css-1sec0gm-view--inlineBlock-baseButton"><span class="css-t3k3bl-baseButton__content"><span class="css-qi8ml9-baseButton__childrenLayout"><span class="css-5udsuu-baseButton__iconOnly"><span class="css-quqv7u-baseButton__iconSVG"><svg viewBox="0 0 40 37" rotate="0" data-cid="InlineSVG SVGIcon" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1uh2md0-inlineSVG-svgIcon" style="width: 1em; height: 1em;"><g role="presentation">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <path d="M37.4,0.9 L37.4,9.6 L35.4,9.6 L35.4,2.9 L24.4,2.9 C22.9,3.3 20,4.5 20,6 L20,17.2 L18,17.2 L18,6 C18,5 15.6,3.6 13.8,2.9 L2,2.9 L2,29 L12.4,29 L12.4,31 L0,31 L0,0.9 L14.1,0.9 L14.3,1 C15,1.2 17.5,2.2 18.9,3.7 C20.5,1.9 23.5,1.1 23.9,1 L24.1,1 L37.4,1 L37.4,0.9 Z" fill="#000000"></path>
+            <path d="M27.4,37 L25.8,37 L18.4,29.4 L14,29.4 L14,21 L18.4,20.9 L26.1,13 L27.4,13 L27.4,37 Z M16,27.4 L19.2,27.4 L25.3,33.7 L25.3,16.6 L19.2,22.9 L15.9,22.9 L15.9,27.4 L16,27.4 Z" fill="#0197F2"></path>
+            <path d="M31.3,32.7 L29.6,31.7 C29.6,31.7 31.7,28.3 31.7,25.2 C31.7,21.9 29.6,18.5 29.6,18.4 L31.3,17.4 C31.4,17.6 33.7,21.3 33.7,25.2 C33.7,28.8 31.4,32.6 31.3,32.7 Z" fill="#0197F2"></path>
+            <path d="M36.4,36.2 L34.8,35 C34.8,35 38,30.8 38,25.2 C38,19.6 34.8,15.4 34.8,15.4 L36.4,14.2 C36.5,14.4 40,19 40,25.3 C40,31.5 36.5,36 36.4,36.2 Z" fill="#0197F2"></path>
+        </g>
+    </g>
+</g></svg></span><span class="css-r9cwls-screenReaderContent">Immersive Reader</span></span></span></span></button></div></div>
+            <div id="ai-information-mount"></div>
+          <atomic-search-desktop-widget id="ajas-search-widget" data-css-class="ajas-search-widget--files" data-placeholder="Search this course"><template shadowrootmode="open"><style>.ajas-search-widget {
+  --svg-fill: #01579b;
+  --close-fill: #fff;
+  max-width: 200px;
+  width: 100%;
+  position: relative;
+}
+
+.ajas-search-widget--dashboard {
+  margin-right: 10px;
+}
+
+.ajas-search-widget--all-courses {
+  position: absolute;
+  top: 32px;
+  right: 24px;
+  margin: 0;
+}
+
+.ajas-search-widget,
+.ajas-search-widget * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.ajas-search-widget__form {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+.ajas-search-widget__form p {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: -16px;
+  text-align: right;
+  font-size: 10px;
+  color: #777;
+  margin-block: 4px 0;
+}
+.ajas-search-widget__form p span {
+  color: var(--svg-fill);
+}
+.ajas-search-widget__form input {
+  height: 36px;
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #202122;
+  width: 100%;
+  padding-inline: 12px 42px;
+  border: 1px solid #8d959f;
+  border-radius: 4px;
+  background-color: white;
+}
+.ajas-search-widget__form input:focus {
+  border-color: #006fbf;
+  outline: 1px solid #006fbf;
+}
+
+.ajas-search-widget-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.ajas-search-widget__dropdown {
+  position: absolute;
+  right: 0;
+  top: 32px;
+  border: 1px solid var(---e5e7eb);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border: 1px solid #e5e7eb;
+  border-radius: 3px;
+  color: #384151;
+  z-index: 191;
+}
+
+.ajas-search-widget__overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+.ajas-search-widget__dropdown.hidden,
+.ajas-search-widget__overlay.hidden {
+  display: none;
+}
+
+.ajas-search-widget__dropdown button {
+  padding: 9px 12px;
+  letter-spacing: 0px;
+  font-size: 14px;
+  white-space: nowrap;
+  border: none;
+  background-color: white;
+  color: #202122;
+}
+
+.ajas-search-widget__dropdown button:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+@media (max-width: 767px) {
+  .ajas-search-widget {
+    display: none;
+  }
+  .ajas-search-widget.ajas-search-widget--small {
+    display: block;
+  }
+}
+.ajas-search-toggle {
+  width: 45px;
+  height: 55px;
+  background: none;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  display: grid;
+  place-items: center;
+  transition: all 0.1s ease;
+}
+.ajas-search-toggle .ajas-search-logo {
+  height: 24px;
+  width: 24px;
+}
+.ajas-search-toggle .ajas-search-logo .logo-path {
+  transition: all 100ms ease;
+  fill: var(--close-fill);
+}
+.ajas-search-toggle .ajas-search-logo .logo-rect {
+  fill: none;
+}
+.ajas-search-toggle .ajas-close-svg {
+  height: 24px;
+  width: 24px;
+  fill: var(--close-fill);
+  transition: all 100ms ease;
+}
+.ajas-search-toggle:focus {
+  outline: 2px solid #fff;
+  outline-offset: -3px;
+}
+
+.ajas-search-widget--small {
+  position: initial;
+  width: auto;
+  transition: all 0.3s ease;
+  margin: 0;
+}
+.ajas-search-widget--small .ajas-close-svg {
+  display: none;
+}
+.ajas-search-widget--small .ajas-search-widget__btn-group {
+  right: 14px;
+  top: 14px;
+}
+.ajas-search-widget--small .ajas-search-widget__btn--search {
+  width: 34px;
+  height: 34px;
+}
+.ajas-search-widget--small .ajas-search-widget__btn--search svg {
+  height: 28px;
+  width: 28px;
+}
+.ajas-search-widget--small .ajas-search-widget__overlay {
+  top: -55px;
+  left: 0;
+}
+.ajas-search-widget--small .ajas-search-widget__btn--caret {
+  height: 34px;
+}
+.ajas-search-widget--small .ajas-search-widget__dropdown {
+  top: 43px;
+}
+.ajas-search-widget--small form {
+  padding: 10px;
+  width: 100%;
+  min-height: 65px;
+  background-color: white;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0;
+  top: 55px;
+  appearance: none;
+  opacity: 0;
+  transform-origin: center top;
+  transform: rotateX(90deg);
+  transition: transform 0.2s ease, opacity 0.2s ease, appearance 0s linear 0.2s;
+  z-index: 99;
+}
+.ajas-search-widget--small form p {
+  position: initial;
+}
+.ajas-search-widget--small input {
+  height: 42px;
+  font-size: 16px;
+  width: 100%;
+  margin: 0;
+  line-height: normal;
+  color: #222 !important;
+}
+.ajas-search-widget--small.is-active .ajas-search-toggle .ajas-search-logo {
+  display: none;
+}
+.ajas-search-widget--small.is-active .ajas-search-toggle .ajas-close-svg {
+  display: block;
+}
+.ajas-search-widget--small.is-active form {
+  appearance: initial;
+  transform: rotateX(0);
+  transition: transform 0.2s ease, opacity 0.2s ease, appearance 0s linear 0s;
+  opacity: 1;
+}
+
+.ajas-search-widget--equella input {
+  padding-right: 60px;
+}
+.ajas-search-widget--equella.ajas-search-widget--small input {
+  padding-right: 66px;
+}
+
+.ajas-search-widget__btn-group {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  right: 4px;
+  top: 4px;
+  border-radius: 3px;
+}
+
+.ajas-search-widget__btn--search {
+  display: grid;
+  place-items: center;
+  height: 28px;
+  width: 28px;
+  border-radius: 3px;
+  background: none;
+  border: none;
+  padding: 0;
+  transition: all 100ms ease;
+}
+.ajas-search-widget__btn--search .ajas-search-logo {
+  height: 24px;
+  width: 24px;
+}
+.ajas-search-widget__btn--search .ajas-search-logo .logo-path {
+  transition: all 100ms ease;
+  fill: var(--svg-fill);
+}
+.ajas-search-widget__btn--search .ajas-search-logo .logo-rect {
+  fill: none;
+}
+.ajas-search-widget__btn--search:hover {
+  --svg-fill: #fff;
+  cursor: pointer;
+  background-color: #006fbf;
+}
+.ajas-search-widget__btn--search:focus {
+  outline: none;
+}
+.ajas-search-widget__btn--search:focus-visible {
+  --svg-fill: #fff;
+  outline: 2px solid #006fbf;
+  outline-offset: 2px;
+  background-color: #006fbf;
+}
+
+.ajas-search-widget__btn--caret {
+  width: 24px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.ajas-search-widget__btn--caret svg {
+  fill: var(--svg-fill);
+}
+.ajas-search-widget__btn--caret:hover {
+  --svg-fill: #fff;
+  cursor: pointer;
+  background-color: #006fbf;
+}
+.ajas-search-widget__btn--caret:focus {
+  outline: none;
+}
+.ajas-search-widget__btn--caret:focus-visible {
+  --svg-fill: #fff;
+  outline: 2px solid #006fbf;
+  outline-offset: 2px;
+  background-color: #006fbf;
+}</style><div class="ajas-search-widget ajas-search-widget--files ">
+      <form id="ajas-search-form" class="ajas-search-widget__form" action="javascript:void(0);" method="get" role="search">
+        <label for="ajas-search01" class="ajas-search-widget-hidden">Search</label>
+        <input type="text" placeholder="Search this course" id="ajas-search01" aria-describedby="powered-by">
+        <p id="powered-by">Powered by <span>Atomic Search</span></p>
+        <div class="ajas-search-widget__btn-group">
+          <button type="submit" aria-label="submit search" class="ajas-search-widget__btn--search">
+            <svg class="ajas-search-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.8 64.6">
+  <g>
+    <path class="logo-path" d="M52.5,55.9a5.9,5.9,0,0,1-2.3.4H14.6a8,8,0,0,1-8-8v-32a8,8,0,0,1,8-8H50.2a8,8,0,0,1,8,8v32A8.2,8.2,0,0,1,56.7,53L43.5,39.8a13.6,13.6,0,0,0,2.3-7.5A13.4,13.4,0,1,0,32.4,45.7a12.9,12.9,0,0,0,7.5-2.4Zm-20.1-32a8.4,8.4,0,1,0,8.4,8.4A8.5,8.5,0,0,0,32.4,23.9Z"></path>
+    <rect class="logo-rect" width="64.7" height="64.7"></rect>
+  </g>
+</svg>
+          </button>
+          
+        </div>
+      </form>
+    </div></template></atomic-search-desktop-widget></div>
+
+        </div>
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark" aria-hidden="true"></div>
+        <div id="left-side" class="ic-app-course-menu ic-sticky-on list-view" style="display: block">
+          <div id="sticky-container" class="ic-sticky-frame">
+              <span id="section-tabs-header-subtitle" class="ellipsis">PennGroup Courses</span>
+            <nav role="navigation" aria-label="Courses Navigation Menu"><ul id="section-tabs"><li class="section"><a id="home-link" href="/courses/1925819" class="home" tabindex="0">Home</a></li><li class="section"><a id="context_external_tool_332814-link" href="/courses/1925819/external_tools/332814?display=borderless" class="context_external_tool_332814" rel="opener" target="_blank" tabindex="0">Ed Discussion</a></li><li class="section"><a id="modules-link" href="/courses/1925819/modules" class="modules" tabindex="0">Modules</a></li><li class="section"><a id="assignments-link" href="/courses/1925819/assignments" class="assignments" tabindex="0">Assignments</a></li><li class="section"><a id="grades-link" href="/courses/1925819/grades" class="grades" tabindex="0">Grades</a></li><li class="section"><a id="people-link" href="/courses/1925819/users" class="people" tabindex="0">People</a></li><li class="section"><a id="context_external_tool_431201-link" href="/courses/1925819/external_tools/431201" class="context_external_tool_431201" tabindex="0">Class Recordings</a></li><li class="section"><a id="context_external_tool_492837-link" href="/courses/1925819/external_tools/492837" class="context_external_tool_492837" tabindex="0">Honorlock 1.3</a></li><li class="section"><a id="context_external_tool_517851-link" href="/courses/1925819/external_tools/517851" class="context_external_tool_517851" tabindex="0">Search</a></li></ul></nav>
+          </div>
+        </div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+
+  
+  
+
+<div id="wiki_page_show">
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="16767881" data-lti-page-content="true">
+    <h1 class="page-title">Penn’s History and the Computer and Information Science Department (CIS)</h1>
+  <div id="todo-date-mount-point"></div>
+    <p style="text-align: center;"><strong>“The noblest question in the world is: What good may I do in it?”&nbsp;</strong></p>
+<p style="text-align: center;"><span>Ben Franklin, Founder of the University of Pennsylvania</span></p>
+<p style="text-align: center;"><span><img role="presentation" src="https://canvas.upenn.edu/courses/1925819/files/163093660/preview" alt="" width="392" height="262" data-api-endpoint="https://canvas.upenn.edu/api/v1/courses/1925819/files/163093660" data-api-returntype="File" loading="lazy"></span></p>
+<p><span>In 1749, Benjamin Franklin—printer, inventor, and future founding father of the United States—published his famous essay, Proposals Relating to the Education of Youth, circulated it among Philadelphia’s leading citizens, and organized 24 trustees to form an institution of higher education that would become the University of Pennsylvania. Franklin advocated an innovative concept of higher education, one which simultaneously taught both the ornamental knowledge of the arts and the practical skills necessary for making a living.&nbsp;&nbsp;</span></p>
+<p><span>More than 250 years after Ben Franklin broke new ground in founding Penn, its faculty, students, and alumni continue to make breakthroughs in research, scholarship, and education. Its many subsequent “firsts,” include the world’s first electronic, large-scale, general-purpose digital computer (</span><a href="http://www.seas.upenn.edu/about-seas/eniac/"><span>ENIAC</span></a><span>, 1946), the first woman president of an Ivy League institution (</span><a href="https://archives.upenn.edu/exhibits/penn-history/institutional-planning/rodin/"><span>Judith Rodin</span></a><span>, inaugurated in 1994), as well as the first female Ivy League president to succeed another female (</span><a href="https://almanac.upenn.edu/archive/volumes/v51/n08/pdf_n08/inaug.pdf"><span>Amy Gutmann</span></a><span>, inaugurated in 2004).</span></p>
+<p><span>Penn’s proud tradition of translating knowledge into social-minded action, articulated in Franklin’s maxim “well-done is better than well-said,” lives today through our policies, innovative work, and impactful engagement of our faculty, students, and staff.</span></p>
+<p><span>Learn more about </span><a href="https://www.upenn.edu/about/history"><span>Penn’s Heritage</span></a><span> and </span><a href="https://osa.universitylife.upenn.edu/campus-traditions/"><span>Penn’s traditions</span></a><span>.</span></p>
+<h3>Penn Engineering, and the Department of Computer and Information Systems</h3>
+<p><span>Penn Engineering is the birthplace of the modern computer. It was here that the ENIAC, the world's first electronic, large-scale, general-purpose digital computer, was developed in 1946. Since this auspicious beginning more than seven decades ago, the field of computer science at Penn has been marked by exciting innovations. Today, the Computer and Information Science department is home to nine research centers and institutes and more than 50 world-class faculty engaging in teaching and interdisciplinary research across many traditional and cutting-edge fields including intelligent systems and artificial intelligence, information systems and data science, hardware and software systems, computer networks, and theory of computation. Faculty and students work together and across sectors to develop new ideas and solutions to challenges rapidly emerging in the field. Now, more than ever, breakthroughs in computer and information science are changing our world, and computer scientists have an amazing opportunity to lead that change.&nbsp;</span></p>
+<p><span>Please visit the </span><a href="http://www.cis.upenn.edu/about-people/index.php"><span>Penn Engineering faculty directory</span></a><span> to learn more about our distinguished faculty and their research areas.</span></p>
+<p>&nbsp;</p>
+<div class="css-79elbk" data-key="909" data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJoZWFkaW5nJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTIyYXR0cmlidXRlcyUyMiUzQSU3QiUyMmxldmVsJTIyJTNBJTIyMiUyMiU3RCU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIydGV4dCUyMiUyQyUyMmxlYXZlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMmxlYWYlMjIlMkMlMjJ0ZXh0JTIyJTNBJTIyVW5pdmVyc2l0eSUyMG9mJTIwUGVubnN5bHZhbmlhJTIwSGlzdG9yeSUyMC0lMjBOb3clMjBZb3UlMjBBcmUlMjBhJTIwUXVha2VyISUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIycGFyYWdyYXBoJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjIlRTIlODAlOUNUaGUlMjBub2JsZXN0JTIwcXVlc3Rpb24lMjBpbiUyMHRoZSUyMHdvcmxkJTIwaXMlM0ElMjBXaGF0JTIwZ29vZCUyMG1heSUyMEklMjBkbyUyMGluJTIwaXQlM0YlRTIlODAlOUQlQzIlQTAlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMm1hcmslMjIlMkMlMjJ0eXBlJTIyJTNBJTIyYm9sZCUyMiUyQyUyMmRhdGElMjIlM0ElN0IlN0QlN0QlNUQlN0QlNUQlN0QlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMi0lMjBCZW4lMjBGcmFua2xpbiUyQyUyMEZvdW5kZXIlMjBvZiUyMHRoZSUyMFVuaXZlcnNpdHklMjBvZiUyMFBlbm5zeWx2YW5pYSUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIycGFyYWdyYXBoJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJJbiUyMDE3NDklMkMlMjBCZW5qYW1pbiUyMEZyYW5rbGluJUUyJTgwJTk0cHJpbnRlciUyQyUyMGludmVudG9yJTIwYW5kJTIwZnV0dXJlJTIwZm91bmRpbmclMjBmYXRoZXIlMjBvZiUyMHRoZSUyMFVuaXRlZCUyMFN0YXRlcyVFMiU4MCU5NHB1Ymxpc2hlZCUyMGhpcyUyMGZhbW91cyUyMGVzc2F5JTJDJTIwUHJvcG9zYWxzJTIwUmVsYXRpbmclMjB0byUyMHRoZSUyMEVkdWNhdGlvbiUyMG9mJTIwWW91dGglMkMlMjBjaXJjdWxhdGVkJTIwaXQlMjBhbW9uZyUyMFBoaWxhZGVscGhpYSVFMiU4MCU5OXMlMjBsZWFkaW5nJTIwY2l0aXplbnMlMkMlMjBhbmQlMjBvcmdhbml6ZWQlMjAyNCUyMHRydXN0ZWVzJTIwdG8lMjBmb3JtJTIwYW4lMjBpbnN0aXR1dGlvbiUyMG9mJTIwaGlnaGVyJTIwZWR1Y2F0aW9uJTIwdGhhdCUyMHdvdWxkJTIwYmVjb21lJTIwdGhlJTIwVW5pdmVyc2l0eSUyMG9mJTIwUGVubnN5bHZhbmlhLiUyMEZyYW5rbGluJTIwYWR2b2NhdGVkJTIwYW4lMjBpbm5vdmF0aXZlJTIwY29uY2VwdCUyMG9mJTIwaGlnaGVyJTIwZWR1Y2F0aW9uJTJDJTIwb25lJTIwd2hpY2glMjBzaW11bHRhbmVvdXNseSUyMHRhdWdodCUyMGJvdGglMjB0aGUlMjBvcm5hbWVudGFsJTIwa25vd2xlZGdlJTIwb2YlMjB0aGUlMjBhcnRzJTIwYW5kJTIwdGhlJTIwcHJhY3RpY2FsJTIwc2tpbGxzJTIwbmVjZXNzYXJ5JTIwZm9yJTIwbWFraW5nJTIwYSUyMGxpdmluZy4lMjAlQzIlQTAlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMmJsb2NrJTIyJTJDJTIydHlwZSUyMiUzQSUyMnBhcmFncmFwaCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIydGV4dCUyMiUyQyUyMmxlYXZlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMmxlYWYlMjIlMkMlMjJ0ZXh0JTIyJTNBJTIyTW9yZSUyMHRoYW4lMjAyNTAlMjB5ZWFycyUyMGFmdGVyJTIwQmVuJTIwRnJhbmtsaW4lMjBicm9rZSUyMG5ldyUyMGdyb3VuZCUyMGluJTIwZm91bmRpbmclMjBQZW5uJTJDJTIwaXRzJTIwZmFjdWx0eSUyQyUyMHN0dWRlbnRzJTJDJTIwYW5kJTIwYWx1bW5pJTIwY29udGludWUlMjB0byUyMG1ha2UlMjBicmVha3Rocm91Z2hzJTIwaW4lMjByZXNlYXJjaCUyQyUyMHNjaG9sYXJzaGlwJTJDJTIwYW5kJTIwZWR1Y2F0aW9uLiUyMEl0cyUyMG1hbnklMjBzdWJzZXF1ZW50JTIwJUUyJTgwJTlDZmlyc3RzJTJDJUUyJTgwJTlEJTIwaW5jbHVkZSUyMHRoZSUyMHdvcmxkJUUyJTgwJTk5cyUyMGZpcnN0JTIwZWxlY3Ryb25pYyUyQyUyMGxhcmdlLXNjYWxlJTJDJTIwZ2VuZXJhbC1wdXJwb3NlJTIwZGlnaXRhbCUyMGNvbXB1dGVyJTIwKCUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIyaW5saW5lJTIyJTJDJTIydHlwZSUyMiUzQSUyMmxpbmslMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlMjJhdHRyaWJ1dGVzJTIyJTNBJTdCJTIyaHJlZiUyMiUzQSUyMmh0dHAlM0ElMkYlMkZ3d3cuc2Vhcy51cGVubi5lZHUlMkZhYm91dC1zZWFzJTJGZW5pYWMlMkYlMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMiUyMiU3RCU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIydGV4dCUyMiUyQyUyMmxlYXZlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMmxlYWYlMjIlMkMlMjJ0ZXh0JTIyJTNBJTIyRU5JQUMlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMiUyQyUyMDE5NDYpJTJDJTIwdGhlJTIwZmlyc3QlMjB3b21hbiUyMHByZXNpZGVudCUyMG9mJTIwYW4lMjBJdnklMjBMZWFndWUlMjBpbnN0aXR1dGlvbiUyMCglMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMmlubGluZSUyMiUyQyUyMnR5cGUlMjIlM0ElMjJsaW5rJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTIyYXR0cmlidXRlcyUyMiUzQSU3QiUyMmhyZWYlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnByZXNpZGVudC51cGVubi5lZHUlMkZoaXN0b3J5JTJGanVkaXRoLXJvZGluJTIyJTJDJTIydGl0bGUlMjIlM0ElMjIlMjIlN0QlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkp1ZGl0aCUyMFJvZGluJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjIlMkMlMjBpbmF1Z3VyYXRlZCUyMGluJTIwMTk5NCklMkMlMjBhcyUyMHdlbGwlMjBhcyUyMHRoZSUyMGZpcnN0JTIwZmVtYWxlJTIwSXZ5JTIwTGVhZ3VlJTIwcHJlc2lkZW50JTIwdG8lMjBzdWNjZWVkJTIwYW5vdGhlciUyMGZlbWFsZSUyMCglMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMmlubGluZSUyMiUyQyUyMnR5cGUlMjIlM0ElMjJsaW5rJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTIyYXR0cmlidXRlcyUyMiUzQSU3QiUyMmhyZWYlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnByZXNpZGVudC51cGVubi5lZHUlMkYlMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMiUyMiU3RCU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIydGV4dCUyMiUyQyUyMmxlYXZlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMmxlYWYlMjIlMkMlMjJ0ZXh0JTIyJTNBJTIyQW15JTIwR3V0bWFubiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIydGV4dCUyMiUyQyUyMmxlYXZlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMmxlYWYlMjIlMkMlMjJ0ZXh0JTIyJTNBJTIyJTJDJTIwaW5hdWd1cmF0ZWQlMjBpbiUyMDIwMDQpLiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIycGFyYWdyYXBoJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJQZW5uJUUyJTgwJTk5cyUyMHByb3VkJTIwdHJhZGl0aW9uJTIwb2YlMjB0cmFuc2xhdGluZyUyMGtub3dsZWRnZSUyMGludG8lMjBzb2NpYWwtbWluZGVkJTIwYWN0aW9uJTJDJTIwYXJ0aWN1bGF0ZWQlMjBpbiUyMEZyYW5rbGluJUUyJTgwJTk5cyUyMG1heGltJTIwJUUyJTgwJTlDd2VsbC1kb25lJTIwaXMlMjBiZXR0ZXIlMjB0aGFuJTIwd2VsbC1zYWlkJTJDJUUyJTgwJTlEJTIwbGl2ZXMlMjB0b2RheSUyMHRocm91Z2glMjB0aGUlMjBpbmNsdXNpdmUlMjBwb2xpY2llcyUyQyUyMGlubm92YXRpdmUlMjB3b3JrJTJDJTIwYW5kJTIwaW1wYWN0ZnVsJTIwZW5nYWdlbWVudCUyMG9mJTIwb3VyJTIwZmFjdWx0eSUyQyUyMHN0dWRlbnRzJTJDJTIwYW5kJTIwc3RhZmYuJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkxlYXJuJTIwbW9yZSUyMGFib3V0JTIwJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJpbmxpbmUlMjIlMkMlMjJ0eXBlJTIyJTNBJTIybGluayUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiUyMmF0dHJpYnV0ZXMlMjIlM0ElN0IlMjJocmVmJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZ3d3cudXBlbm4uZWR1JTJGYWJvdXQlMkZoaXN0b3J5JTIyJTJDJTIydGl0bGUlMjIlM0ElMjIlMjIlN0QlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMlBlbm4lRTIlODAlOTlzJTIwSGVyaXRhZ2UlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMiUyQyUyMHJlYWQlMjBhJTIwbWVzc2FnZSUyMGZyb20lMjAlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMmlubGluZSUyMiUyQyUyMnR5cGUlMjIlM0ElMjJsaW5rJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTIyYXR0cmlidXRlcyUyMiUzQSU3QiUyMmhyZWYlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnd3dy51cGVubi5lZHUlMkZhYm91dCUyRndlbGNvbWUlMjIlMkMlMjJ0aXRsZSUyMiUzQSUyMiUyMiU3RCU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIydGV4dCUyMiUyQyUyMmxlYXZlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMmxlYWYlMjIlMkMlMjJ0ZXh0JTIyJTNBJTIyUGVubiUyMFByZXNpZGVudCUyMEFteSUyMEd1dG1hbm4lMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMiUyMGFuZCUyMGxlYXJuJTIwbW9yZSUyMGFib3V0JTIwJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJpbmxpbmUlMjIlMkMlMjJ0eXBlJTIyJTNBJTIybGluayUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiUyMmF0dHJpYnV0ZXMlMjIlM0ElN0IlMjJocmVmJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZ3d3cubnNvLnVwZW5uLmVkdSUyRnN0dWRlbnQtbGlmZS10cmFkaXRpb25zJTIyJTJDJTIydGl0bGUlMjIlM0ElMjIlMjIlN0QlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMlBlbm4lRTIlODAlOTlzJTIwdHJhZGl0aW9ucyUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIydGV4dCUyMiUyQyUyMmxlYXZlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMmxlYWYlMjIlMkMlMjJ0ZXh0JTIyJTNBJTIyLiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTdEJTVEJTdEJTVEJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIycGFyYWdyYXBoJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjIlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCU3RCU1RCU3RCU1RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMmJsb2NrJTIyJTJDJTIydHlwZSUyMiUzQSUyMnRhYmxlJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTIyYXR0cmlidXRlcyUyMiUzQSU3QiUyMnJvd3MlMjIlM0ElMjIyJTIyJTJDJTIyY29sdW1ucyUyMiUzQSUyMjElMjIlN0QlMkMlMjJoZWFkbGVzcyUyMiUzQXRydWUlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMmJsb2NrJTIyJTJDJTIydHlwZSUyMiUzQSUyMnRhYmxlLXJvdyUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIydGFibGUtY2VsbCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIycGFyYWdyYXBoJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjIlRTIlODAlOUNUbyUyMHRydWx5JTIwbWFrZSUyMGRlc3RpbnklMkMlMjB0byUyMGVmZmVjdCUyMGNoYW5nZSUyMGZvciUyMHRoZSUyMGJldHRlciUyQyUyMG5vJTIwb25lJTIwcGVyc29uJTIwZ29lcyUyMGl0JTIwYWxvbmUlMjAlNUIlRTIlODAlQTYlNUQlMjAlMjBBdCUyMFBlbm4lMkMlMjBldmVyeXRoaW5nJTIwd2UlMjBkbyUyMHRvJTIwbWFrZSUyMG91ciUyMGZ1dHVyZSUyMGJldHRlciUyQyUyMHdlJTIwZG8lMjB0b2dldGhlci4lRTIlODAlOUQlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMm1hcmslMjIlMkMlMjJ0eXBlJTIyJTNBJTIyYm9sZCUyMiUyQyUyMmRhdGElMjIlM0ElN0IlN0QlN0QlNUQlN0QlNUQlN0QlNUQlN0QlNUQlN0QlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJ0YWJsZS1yb3clMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMmJsb2NrJTIyJTJDJTIydHlwZSUyMiUzQSUyMnRhYmxlLWNlbGwlMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMmJsb2NrJTIyJTJDJTIydHlwZSUyMiUzQSUyMnBhcmFncmFwaCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIydGV4dCUyMiUyQyUyMmxlYXZlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMmxlYWYlMjIlMkMlMjJ0ZXh0JTIyJTNBJTIyJTIwLSUyMFBlbm4lMjBQcmVzaWRlbnQlMjBBbXklMjBHdXRtYW5uJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlN0QlNUQlN0QlNUQlN0QlNUQlN0QlNUQlN0QlNUQlN0QlNUQlN0Q=">
+<p>&nbsp;</p>
+</div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>
+</div>
+<div id="module_navigation_target"><div style=""><div class="module-sequence-padding"></div>
+<div class="module-sequence-footer" role="navigation" aria-label="Module Navigation">
+  <div class="module-sequence-footer-content">
+    <div class="module-sequence-footer-left">
+        <span class="module-sequence-footer-button--previous"><span data-position="Popover___0" data-cid="Position Popover Tooltip" class="css-1ihz85b-position"><a dir="ltr" aria-label="Previous Module Item" aria-describedby="Tooltip___0" data-popover-trigger="true" data-position-target="Popover___0" data-cid="BaseButton Button" cursor="pointer" href="https://canvas.upenn.edu/courses/1925819/modules/items/37014747" class="css-1sec0gm-view--inlineBlock-baseButton"><span class="css-1ta5ds2-baseButton__content"><span class="css-11xkk0o-baseButton__children"><span dir="ltr" direction="row" wrap="no-wrap" class="css-p0uk0p-view--flex-flex"><svg name="IconMiniArrowStart" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon" style="width: 1em; height: 1em;"><g role="presentation"><path d="M694.018 926.244c-27.296 18.796-27.3 49.269 0 68.067l509.836 351.074c27.296 18.797 49.424 7.18 49.424-25.959V601.13c0-33.133-22.125-44.757-49.424-25.959L694.018 926.244Z" fill-rule="evenodd"></path></g></svg> Previous</span></span></span></a></span></span>
+    </div>
+    <div class="module-sequence-footer-right"><span id="mark-as-done-container" style="margin-right: 4px;">
+    <button id="mark-as-done-checkbox" class="btn " data-url="/api/v1/courses/1925819/modules/4638005/items/37014759/done" data-is-checked="false">
+      <i class="icon-empty"> </i>
+      <span class="mark-done-labels">
+        <span class="">Done</span>
+        <span class="visible">Mark as done</span>
+      </span>
+    </button>
+  </span>
+        <span class="module-sequence-footer-button--next"><span data-position="Popover___1" data-cid="Position Popover Tooltip" class="css-1ihz85b-position"><a dir="ltr" aria-label="Next Module Item" aria-describedby="Tooltip___1" data-popover-trigger="true" data-position-target="Popover___1" data-cid="BaseButton Button" cursor="pointer" href="https://canvas.upenn.edu/courses/1925819/modules/items/37014765" class="css-1sec0gm-view--inlineBlock-baseButton"><span class="css-1ta5ds2-baseButton__content"><span class="css-11xkk0o-baseButton__children"><span dir="ltr" direction="row" wrap="no-wrap" class="css-p0uk0p-view--flex-flex">Next <svg name="IconMiniArrowEnd" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon" style="width: 1em; height: 1em;"><g role="presentation"><path d="M1225.982 926.244c27.296 18.796 27.3 49.269 0 68.067l-509.836 351.074c-27.296 18.797-49.424 7.18-49.424-25.959V601.13c0-33.133 22.125-44.757 49.424-25.959l509.836 351.074Z" fill-rule="evenodd"></path></g></svg></span></span></span></a></span></span>
+    </div>
+  </div>
+</div>
+</div></div>
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side">
+            
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">7ab976bb-c927-437b-aa26-b1669c675603</div>
+    </div>
+  <div id="aria_alerts" class="hide-text affix" role="alert" aria-live="assertive"></div>
+  <div id="StudentTray__Container"></div>
+  <div id="react-router-portals"></div>
+
+
+  
+
+  <iframe src="https://sso.canvaslms.com/post_message_forwarding?rev=e6aca5e55d-9c856c93fa625037&amp;token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJwYXJlbnRfZG9tYWluIjoiY2FudmFzLnVwZW5uLmVkdSJ9.Lez1tlBxfOgkB-0SDHHLwLoD09L02VquNXitjTsuidYz3joxzXewJMUiFUCqqjXjl4v1vXMy6l7m9o1ktDErjQ" name="post_message_forwarding" title="post_message_forwarding" id="post_message_forwarding" sandbox="allow-scripts allow-same-origin" style="display:none;"></iframe>
+
+
+  <script>
+    Object.assign(
+      ENV,
+      {}
+    )
+  </script>
+
+<script>
+//<![CDATA[
+(window.deferredBundles || (window.deferredBundles = [])).push('usage_metrics');
+(window.bundles || (window.bundles = [])).push('inst_fs_service_worker');
+//]]>
+</script>
+<script src="https://instructure-uploads.s3.amazonaws.com/account_250000000096678/attachments/163976433/penn-canvas.js" defer="defer"></script>
+
+
+</div> <!-- #application -->
+
+
+<div id="nav-tray-portal" style="position: relative; z-index: 99;"></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-dialog-buttons" tabindex="-1" style="display: none; outline: 0px; z-index: 1000;" role="dialog" aria-labelledby="ui-id-1"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle"><span id="ui-id-1" class="ui-dialog-title">Requirements Changed</span><button type="button" class="ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick">Close</span></button></div><div id="relock_modules_dialog" class="ui-dialog-content ui-widget-content"></div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Re-Lock Modules</span></button><button type="button" class="btn-primary ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Continue</span></button></div></div></div><span dir="ltr"><span dir="ltr" data-position-content="Popover___0" class="css-x1c36j-view--inlineBlock-contextView"><span dir="ltr" class="css-1wfyn6r-view--block-contextView__content"><span class="css-zxcbwr-contextView__arrow"></span><span id="Tooltip___0" role="tooltip" class="css-cfm3yr-tooltip"><i class="icon-document"></i> Community Guidelines</span></span></span></span><span dir="ltr"><span dir="ltr" data-position-content="Popover___1" class="css-x1c36j-view--inlineBlock-contextView"><span dir="ltr" class="css-1wfyn6r-view--block-contextView__content"><span class="css-zxcbwr-contextView__arrow"></span><span id="Tooltip___1" role="tooltip" class="css-cfm3yr-tooltip"><i class="icon-document"></i> Meet the MSE-DS Online Program Director</span></span></span></span></body>

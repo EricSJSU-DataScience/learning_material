@@ -8,14 +8,6 @@ nav_order: 1
 
 # MSE-DS Welcome! Important Onboarding Dates
 
-Welcome to the MSE-DS Online Onboarding Course! This module introduces you to the program community, tools, guidelines, and key dates you need to know.
-
----
-
-## Course Overview
-
-In this nine-module onboarding course, you'll learn the fundamentals of being part of the MSE-DS program. Upon completion, you'll be equipped with the knowledge to succeed in your online degree journey.
-
 ## Learning Outcomes
 
 Upon successful completion of these nine modules, you will be able to:
