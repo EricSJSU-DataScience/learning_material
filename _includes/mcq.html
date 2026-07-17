@@ -117,9 +117,33 @@
 <script>
 const _quizData = {};
 
-function renderQuiz(containerId, questions) {
+// Fisher-Yates shuffle
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Shuffle options and update the answer index to match new position
+function shuffleOptions(q) {
+  const correctText = q.options[q.answer];
+  const shuffled = shuffle(q.options);
+  return {
+    ...q,
+    options: shuffled,
+    answer: shuffled.indexOf(correctText)
+  };
+}
+
+function renderQuiz(containerId, originalQuestions) {
   const container = document.getElementById(containerId);
   if (!container) return;
+
+  // Shuffle questions and each question's options
+  const questions = shuffle(originalQuestions).map(shuffleOptions);
   _quizData[containerId] = questions;
 
   questions.forEach((q, qi) => {
