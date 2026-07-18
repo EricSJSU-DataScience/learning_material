@@ -43,7 +43,10 @@
   border-color: #5050d0;
   background: #f0f0ff;
 }
-.quiz-option-label input[type=radio] { display: none; }
+.quiz-option-label input[type=radio],
+.quiz-option-label input[type=checkbox] { display: none; }
+
+/* Radio dot — circle for single-select */
 .quiz-radio-dot {
   width: 16px; height: 16px;
   border-radius: 50%;
@@ -59,7 +62,42 @@
 }
 .quiz-option-label input[type=radio]:checked ~ .quiz-option-text {
   color: #3030a0;
-  font-weight: 300;
+  font-weight: 500;
+}
+
+/* Checkbox square — for multi-select */
+.quiz-check-box {
+  width: 16px; height: 16px;
+  border-radius: 3px;
+  border: 2px solid #aaa;
+  flex-shrink: 0;
+  transition: border-color 0.15s, background 0.15s;
+  box-sizing: border-box;
+  display: flex; align-items: center; justify-content: center;
+}
+.quiz-option-label input[type=checkbox]:checked ~ .quiz-check-box {
+  border-color: #5050d0;
+  background: #5050d0;
+}
+.quiz-option-label input[type=checkbox]:checked ~ .quiz-check-box::after {
+  content: '';
+  width: 4px; height: 8px;
+  border: 2px solid #fff;
+  border-top: none; border-left: none;
+  transform: rotate(45deg) translate(-1px, -1px);
+  display: block;
+}
+.quiz-option-label input[type=checkbox]:checked ~ .quiz-option-text {
+  color: #3030a0;
+  font-weight: 500;
+}
+
+/* Multi-select hint tag */
+.quiz-multi-hint {
+  font-size: 0.78rem;
+  color: #777;
+  margin-bottom: 0.75rem;
+  font-style: italic;
 }
 .quiz-submit {
   margin-top: 1rem;
@@ -114,123 +152,4 @@
 }
 </style>
 
-<script>
-const _quizData = {};
-
-// Fisher-Yates shuffle
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-// Shuffle options and update the answer index to match new position
-function shuffleOptions(q) {
-  const correctText = q.options[q.answer];
-  const shuffled = shuffle(q.options);
-  return {
-    ...q,
-    options: shuffled,
-    answer: shuffled.indexOf(correctText)
-  };
-}
-
-function renderQuiz(containerId, originalQuestions) {
-  const container = document.getElementById(containerId);
-  if (!container) return;
-
-  // Shuffle questions and each question's options
-  const questions = shuffle(originalQuestions).map(shuffleOptions);
-  _quizData[containerId] = questions;
-
-  questions.forEach((q, qi) => {
-    const block = document.createElement('div');
-    block.className = 'quiz-block';
-
-    const questionEl = document.createElement('div');
-    questionEl.className = 'quiz-question';
-    questionEl.innerHTML = `${qi + 1}. ${q.q}`;
-    block.appendChild(questionEl);
-
-    const ul = document.createElement('ul');
-    ul.className = 'quiz-options';
-    q.options.forEach((opt, oi) => {
-      const li = document.createElement('li');
-      const label = document.createElement('label');
-      label.className = 'quiz-option-label';
-      const input = document.createElement('input');
-      input.type = 'radio';
-      input.name = `q${containerId}-${qi}`;
-      input.value = oi;
-      const dot = document.createElement('span');
-      dot.className = 'quiz-radio-dot';
-      const text = document.createElement('span');
-      text.className = 'quiz-option-text';
-      text.textContent = opt;
-      label.appendChild(input);
-      label.appendChild(dot);
-      label.appendChild(text);
-      li.appendChild(label);
-      ul.appendChild(li);
-    });
-    block.appendChild(ul);
-
-    const btn = document.createElement('button');
-    btn.className = 'quiz-submit';
-    btn.textContent = 'Check';
-    btn.addEventListener('click', () => checkAnswer(containerId, qi));
-    block.appendChild(btn);
-
-    const feedback = document.createElement('div');
-    feedback.className = 'quiz-feedback';
-    feedback.id = `feedback-${containerId}-${qi}`;
-    feedback.style.display = 'none';
-    block.appendChild(feedback);
-
-    container.appendChild(block);
-  });
-
-  const scoreBtn = document.createElement('button');
-  scoreBtn.className = 'quiz-score-btn';
-  scoreBtn.textContent = 'Show Score';
-  scoreBtn.addEventListener('click', () => showScore(containerId));
-  container.appendChild(scoreBtn);
-
-  const scoreDiv = document.createElement('div');
-  scoreDiv.className = 'quiz-score-display';
-  scoreDiv.id = `score-${containerId}`;
-  scoreDiv.style.display = 'none';
-  container.appendChild(scoreDiv);
-}
-
-function checkAnswer(containerId, qi) {
-  const q = _quizData[containerId][qi];
-  const selected = document.querySelector(`input[name="q${containerId}-${qi}"]:checked`);
-  const feedback = document.getElementById(`feedback-${containerId}-${qi}`);
-  if (!selected) {
-    feedback.style.display = 'block';
-    feedback.className = 'quiz-feedback';
-    feedback.textContent = 'Please select an answer.';
-    return;
-  }
-  const isCorrect = parseInt(selected.value) === q.answer;
-  feedback.style.display = 'block';
-  feedback.className = 'quiz-feedback ' + (isCorrect ? 'correct' : 'incorrect');
-  feedback.textContent = isCorrect ? '✓ Correct!' : `✗ Incorrect. ${q.explanation || ''}`;
-}
-
-function showScore(containerId) {
-  const questions = _quizData[containerId];
-  let correct = 0;
-  questions.forEach((q, qi) => {
-    const selected = document.querySelector(`input[name="q${containerId}-${qi}"]:checked`);
-    if (selected && parseInt(selected.value) === q.answer) correct++;
-  });
-  const scoreDiv = document.getElementById(`score-${containerId}`);
-  scoreDiv.style.display = 'block';
-  scoreDiv.textContent = `Score: ${correct} / ${questions.length}`;
-}
-</script>
+<script src="{{ '/assets/js/mcq.js' | relative_url }}"></script>

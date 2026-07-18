@@ -8,6 +8,6 @@ nav_order: 1
 
 | Topic | Description |
 |-------|-------------|
-| [Python](docs/python/) | Python programming notes |
-| [SQL](docs/sql/) | Database query notes |
-| [Statistics](docs/statistics/) | Statistics notes |
+| [Linux](docs/Linux/) | Linux knowledge for data science and everyday use |
+| [MSE-DS Onboarding](docs/MSE-DS%20Onboarding%20Course/) | Onboarding course before first semester |
+
