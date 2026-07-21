@@ -5,3 +5,7 @@ _site
 vendor
 Jekyll_website_project.md
 templates/
+docs/QUIZ-SKILL-README.md
+docs/QUIZ-TEMPLATE-EXAMPLE.md
+docs/QUIZ-TEMPLATE-SKILL.md
+note.md
