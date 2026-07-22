@@ -19,6 +19,9 @@ Navigate through the sections below for additional resources and technical infor
 | Topic | Description |
 |-------|-------------|
 | [Tech Spotlight - Zoom](01-tech-spotlight-zoom.md) | Guide to using Zoom for video conferencing and meetings |
+| [Tech Spotlight - Waitwhile](02-tech-spotlight-waitwhile.md) | Guide to using OHQ queue management system for office hours |
+| [Guidelines for the Use of Generative AI in your Program](03-guidelines-for-generative-ai.md) | Acceptable and unacceptable uses of AI tools in coursework |
+| [Congratulations! What's Next?](04-congratulations-whats-next.md) | Next steps and resources after completing onboarding |
 
 ---
 

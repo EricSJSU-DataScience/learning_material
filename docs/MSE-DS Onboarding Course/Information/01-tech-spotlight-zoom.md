@@ -8,6 +8,8 @@ nav_order: 1
 
 # Tech Spotlight: Zoom
 
+![alt text](01_image1.png)
+
 [Zoom](https://zoom.us/) is a cloud-based web conferencing tool. It unifies video conferencing, online meetings, and group messaging into a single platform. With Zoom, you will be able to video chat, talk, and text chat with course staff and your peers. Please note that some Zoom sessions will be recorded.
 
 ---
@@ -46,4 +48,4 @@ Instructors, TAs and student success staff will use Zoom to conduct their weekly
 
 ---
 
-**Next:** [Coming Soon](02-next-page.md)
+**Next:** [Tech Spotlight - Waitwhile](02-tech-spotlight-waitwhile.md)
