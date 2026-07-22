@@ -132,4 +132,4 @@ Please identify, from the list below, which areas you feel you need to develop a
 
 ---
 
-**Next:** [Module 6 Complete](index.md)
+**Next:** [Tech Spotlight - Ed Discussion](06-tech-spotlight-ed-discussion.md)

@@ -33,6 +33,8 @@ Navigate through the sections below to learn about student success strategies.
 | [FAQs - Studying Online](03-faqs-studying-online.md) | Answers to common questions about studying online and study techniques |
 | [Managing Your Time as an Online Student](04-managing-time-as-online-student.md) | Time management strategies and resources from the Weingarten Center |
 | [Academic Self-Evaluation and Plan for Success](05-academic-self-evaluation.md) | Self-assessment exercise for identifying strengths and planning for challenges |
+| [Tech Spotlight - Ed Discussion](06-tech-spotlight-ed-discussion.md) | Guide to using Ed Discussion forum for course communication and support |
+| [Ed Discussion Activity](07-ed-discussion-activity.md) | Activity: Get started by posting on Ed Discussion |
 
 ---
 
