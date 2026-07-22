@@ -30,4 +30,4 @@ renderQuiz("module8-profile-quiz", [
 
 ---
 
-**Next:** [Coming Soon](07-next-page.md)
+**Next:** [University Services](../University%20Services/index.md)
