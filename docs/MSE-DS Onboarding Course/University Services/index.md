@@ -22,6 +22,10 @@ Navigate through the sections below to learn about University-level support serv
 | [Penn Libraries](02-penn-libraries.md) | Online and physical resources, services, and librarian support |
 | [Career Services](03-career-services.md) | Career advising, job search resources, interviews, and networking |
 | [Disabilities Services](04-disabilities-services.md) | Resources and accommodations for students with disabilities |
+| [Wellness at Penn and the Office of Student Health and Counseling](05-wellness-at-penn.md) | Health, mental health, counseling, and wellness resources |
+| [Healthy Relationships](06-healthy-relationships.md) | Understanding sexual violence, consent, harassment, and healthy relationships |
+| [Confidential Resources](07-confidential-resources.md) | Confidential offices for discussing sexual harassment and gender discrimination |
+| [Healthy Relationships](06-healthy-relationships.md) | Sexual violence prevention, consent, relationship violence, and bystander intervention |
 
 ---
 

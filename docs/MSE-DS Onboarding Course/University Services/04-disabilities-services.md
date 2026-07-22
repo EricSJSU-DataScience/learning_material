@@ -24,4 +24,4 @@ Students with disability accommodations need to schedule meetings to determine e
 
 ---
 
-**Next:** [Coming Soon](05-next-page.md)
+**Next:** [Wellness at Penn and the Office of Student Health and Counseling](05-wellness-at-penn.md)
